@@ -1,0 +1,173 @@
+/* Midnight Oceanic Theme Overrides */
+
+:root {
+    --bg-dark: #0f172a;
+    --bg-surface: #1e293b;
+    --bg-surface-hover: #334155;
+    --text-main: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent-primary: #06b6d4;
+    --accent-hover: #0891b2;
+}
+
+body {
+    background-color: var(--bg-dark) !important;
+    color: var(--text-muted) !important;
+}
+
+h1, h2, h3, h4, h5, h6, 
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: var(--text-main) !important;
+}
+
+p, .lead {
+    color: var(--text-muted) !important;
+}
+
+/* Section Backgrounds */
+.section.wb {
+    background-color: var(--bg-dark) !important;
+}
+
+.section.lb {
+    background-color: var(--bg-surface) !important;
+}
+
+.section.db {
+    background-color: #0b1120 !important;
+}
+
+/* Navbar */
+#mainNav.navbar-shrink {
+    background-color: rgba(15, 23, 42, 0.95) !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--text-main) !important;
+}
+.navbar-dark .navbar-nav .nav-link::after {
+    background: var(--accent-primary) !important;
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--accent-primary) !important;
+}
+
+/* Banner Overlay */
+.main-banner::after {
+    background-color: var(--bg-dark) !important;
+    opacity: 0.8 !important;
+}
+
+/* Typed Text Accent */
+.cd-headline.clip span {
+    color: var(--text-main) !important;
+}
+.cd-headline.clip .cd-words-wrapper b {
+    color: var(--accent-primary) !important;
+}
+
+/* Buttons */
+.btn-hover-new {
+    border: 1px solid var(--accent-primary) !important;
+    color: var(--accent-primary) !important;
+}
+.btn-hover-new:hover {
+    background-color: var(--accent-primary) !important;
+    color: #fff !important;
+}
+
+/* Skills Box */
+.services-inner-box {
+    background: #0f172a !important; /* Slightly darker than surface for contrast */
+    border: 1px solid #334155;
+    transition: all 0.3s ease;
+}
+.services-inner-box:hover {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 15px rgba(6, 182, 212, 0.2);
+}
+.ser-icon i {
+    color: var(--accent-primary) !important;
+}
+
+/* Projects */
+.gallery-menu .button-group button {
+    color: var(--text-main) !important;
+    background-color: transparent !important;
+    border-color: #334155 !important;
+}
+.gallery-menu .button-group button.active,
+.gallery-menu .button-group button:hover {
+    background-color: var(--accent-primary) !important;
+    color: #fff !important;
+    border-color: var(--accent-primary) !important;
+}
+
+.gallery-single {
+    background: #0f172a !important;
+    border-radius: 8px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    border: 1px solid #334155;
+}
+.gallery-single .img-overlay {
+    background-color: rgba(15, 23, 42, 0.8) !important;
+}
+
+/* Experience Box */
+.testi-carousel .testimonial {
+    background: #0f172a !important;
+    border: 1px solid #334155 !important;
+    border-radius: 8px;
+}
+.testimonial .desc h3 i {
+    color: var(--accent-primary) !important;
+}
+.testi-meta h4 small {
+    color: var(--accent-primary) !important;
+}
+
+/* Achievements */
+.post-box {
+    background: #0f172a !important;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #334155;
+}
+.post-box .date {
+    background: var(--accent-primary) !important;
+    color: #fff !important;
+}
+
+/* Form */
+.form-control {
+    background-color: #0f172a !important;
+    border: 1px solid #334155 !important;
+    color: var(--text-main) !important;
+}
+.form-control:focus {
+    border-color: var(--accent-primary) !important;
+    background-color: #1e293b !important;
+}
+.form-control::placeholder {
+    color: #64748b !important;
+}
+
+/* Footer */
+.copyrights {
+    background-color: #0b1120 !important;
+    border-top: 1px solid #1e293b !important;
+}
+.footer-links a {
+    color: var(--text-muted) !important;
+}
+.footer-links a:hover {
+    color: var(--accent-primary) !important;
+}
+
+/* Section titles subtitle */
+.section-title p {
+    color: var(--text-muted) !important;
+}
